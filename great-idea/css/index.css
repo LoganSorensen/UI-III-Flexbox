@@ -78,17 +78,17 @@ nav {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-	/* margin: 0 2%; */
+	margin-top: 2%;
 	position: sticky;
 	/* top: 0; */
-	background-color: gray;
+	/* background-color: gray; */
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
 }
 
 nav a {
 	text-decoration: none;
-	color: lightgray;
+	color: gray;
 	margin: 0 5%;
 }
 
@@ -96,7 +96,7 @@ nav a:hover {
 	color: black;
 }
 
-header {
+.mainHeader {
 	text-align: center; 
 	margin: 5% 0%;
 	display: flex;
@@ -104,8 +104,11 @@ header {
 	justify-content: space-evenly;
 }
 
-h1 {
+ h1 {
 	font-family: "Bangers", sans-serif;
+}
+
+.mainHeader h1 { 
 	font-size: 72px;
 	letter-spacing: 2.8px;
 	display: flex;
@@ -114,7 +117,7 @@ h1 {
 
 button {
 	/* display: block; */
-	background-color: transparent;
+	background-color: white;
 	border: 1px solid black;
 	margin: 7% auto; 
 	width: 150px;
@@ -212,4 +215,67 @@ footer {
 	justify-content: center;
 	/* text-align: center;
 	margin: 5% 0 10%; */
+}
+
+/* Service Page Styling */
+
+
+/* Services Header */
+.servicesHeader {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.services-header-img {
+	margin-top: 2%;
+}
+
+.servicesHeader h1 {
+	display: flex;
+	justify-content: flex-start;
+	font-size: 45px;
+	margin: 2% 0;
+}
+
+.servicesHeader p {
+	margin: 0 0 2% 0;
+	font-size: 
+}
+
+/* Services Content */
+
+.servicesContent {
+	margin: 1% 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: space-between;
+}
+
+.servicesContent h2 {
+	margin: 4% 0;
+}
+
+.servicesContent p {
+	margin: 0 0 2% 0;
+}
+
+.servicesBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	border: 1px solid black;
+	background-color: #e6e6e6;
+	width: 40%;
+	padding: 0 2%;
+	margin: 2% 0;
+	height: 27vh;
+}
+
+.servicesBox button {
+	margin: 2% 0;
+	width: 180px;
+	height: 5vh;
+	border-radius: 7px;
 }
