@@ -74,26 +74,38 @@ body{
 
 /* Header Styles */
 nav {
-	/* text-align: center; */
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 	margin-top: 2%;
 	position: sticky;
-	/* top: 0; */
-	/* background-color: gray; */
+	top: 0;
+	background-color: lightgray;
+	border: 1px solid black;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
 }
 
 nav a {
 	text-decoration: none;
-	color: gray;
-	margin: 0 5%;
+	color: black;
+	margin: 0 3.5%;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	padding: 1%;
+}
+
+.contactLink {
+	margin: 0 0 0 5%;
 }
 
 nav a:hover {
 	color: black;
+	background-color: #a6a6a6;
+}
+
+nav a:active {
+	background-color: gray; 
 }
 
 .mainHeader {
@@ -213,6 +225,7 @@ h3 {
 footer {
 	display: flex;
 	justify-content: center;
+	margin: 10% 0 3%;
 	/* text-align: center;
 	margin: 5% 0 10%; */
 }
@@ -278,4 +291,28 @@ footer {
 	width: 180px;
 	height: 5vh;
 	border-radius: 7px;
+}
+
+.servicesLowerContent {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2%;
+	
+}
+
+.servicesLowerContent h2 {
+	margin: 4% 0 6% 0;
+}
+
+.servicesLowerText {
+	width: 34%;
+}
+
+ul {
+	list-style-type: square;
+}
+
+.services-info-img {
+	width: 37%;
+	margin-top: 1%;
 }
