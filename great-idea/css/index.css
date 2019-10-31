@@ -1,3 +1,4 @@
+{
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -62,5 +63,147 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
+}
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	font-family: "Titillium", sans-serif;
+	padding: 0 200px;
+	margin-top: 0px;
+}
+
+/* Header Styles */
+nav {
+	/* text-align: center; */
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	/* margin: 0 2%; */
+	position: sticky;
+	/* top: 0; */
+	background-color: gray;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: lightgray;
+	margin: 0 5%;
+}
+
+nav a:hover {
+	color: black;
+}
+
+header {
+	text-align: center; 
+	margin: 5% 0%;
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+}
+
+h1 {
+	font-family: "Bangers", sans-serif;
+	font-size: 72px;
+	letter-spacing: 2.8px;
+	display: flex;
+	flex-direction: column;
+}
+
+button {
+	/* display: block; */
+	background-color: transparent;
+	border: 1px solid black;
+	margin: 7% auto; 
+	width: 150px;
+	height: 33px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	box-shadow: 0 9px lightgray;
+}
+
+button:hover {
+	background-color: lightblue;
+}
+
+button:active {
+	box-shadow: 0 5px gray;
+	transform: translateY(4px);
+}
+
+h2 {
+	font-family: "Bangers", sans-serif;
+	/* display: inline-block; */
+	margin: 10% 0 0 0;
+}
+
+/* Main Content */
+
+p {
+	letter-spacing: 1px;
+}
+
+.box {
+	/* display: inline-block; */
+	width: 47%;
+	margin:  1%;
+	
+}
+
+.topContent {
+	/* margin: 0 10% 0 10%; */
+	border-top: 1px solid black;
+	width: 100%;
+	/* padding: 0 0 25px; */
+	display: flex;
+	justify-content: center;
+}
+
+.topContent div {
+	width: 35%;
+}
+
+.imgContainer {
+	width: 100%;
+	display:flex;
+	justify-content: center;
+}
+
+.middle-img {
+	/* display: flex;
+	justify-content: flex-end; */
+	/* margin: 0 10.8%; */
+	width: 73%;
+}
+
+.bottomContent {
+	display: flex;
+	justify-content: center;
+	justify-content: 
+	/* margin: 0 10%; */
+	width: 100%;
+	border-bottom: 1px solid black;
+	/* padding: 0 0 30px; */
+}
+
+.bottomContent div {
+	width: 23%;
+}
+
+.contact {
+	margin: 3% 13%; 
+}
+
+h3 {
+	font-family: "Bangers", sans-serif;
+}
+
+/* Footer Styles */
+footer {
+	display: flex;
+	justify-content: center;
+	/* text-align: center;
+	margin: 5% 0 10%; */
+}
